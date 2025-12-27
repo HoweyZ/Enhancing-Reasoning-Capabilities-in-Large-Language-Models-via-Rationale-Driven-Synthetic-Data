@@ -64,7 +64,7 @@ bash scripts/run_sft.sh data/sft_training.jsonl
 
 # 或使用自定义数据
 python -m MiniPromptCoT.training.sft_trainer \
-    --model_name_or_path "Qwen/Qwen2.5-7B-Instruct" \
+    --model_name_or_path "Qwen/Qwen3-4B-Instruct" \
     --train_data_path "data/sft_training.jsonl" \
     --output_dir "sft_output" \
     --use_lora true
